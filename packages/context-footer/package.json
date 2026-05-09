@@ -1,0 +1,38 @@
+{
+	"name": "@taimoorchatha/pi-context-footer",
+	"version": "0.1.0",
+	"description": "pi coding-agent extension: turn-by-turn context-usage readout in the footer (bar, %, tokens, delta, last event).",
+	"keywords": [
+		"pi",
+		"pi-agent",
+		"pi-extension",
+		"pi-coding-agent",
+		"context-window",
+		"footer",
+		"tui",
+		"extension"
+	],
+	"license": "MIT",
+	"author": "Taimoor Chatha",
+	"homepage": "https://github.com/taimoorchatha/pi-extensions/tree/main/packages/context-footer#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taimoorchatha/pi-extensions.git",
+		"directory": "packages/context-footer"
+	},
+	"bugs": {
+		"url": "https://github.com/taimoorchatha/pi-extensions/issues"
+	},
+	"pi": {
+		"extensions": ["./src/index.ts"]
+	},
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"peerDependencies": {
+		"@mariozechner/pi-coding-agent": "*",
+		"@mariozechner/pi-tui": "*"
+	}
+}

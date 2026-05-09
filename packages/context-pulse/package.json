@@ -1,0 +1,37 @@
+{
+	"name": "@taimoorchatha/pi-context-pulse",
+	"version": "0.1.0",
+	"description": "pi coding-agent extension: input-editor border pulses yellow → red as the context window fills up, like an FPS damage-vignette.",
+	"keywords": [
+		"pi",
+		"pi-agent",
+		"pi-extension",
+		"pi-coding-agent",
+		"context-window",
+		"tui",
+		"extension"
+	],
+	"license": "MIT",
+	"author": "Taimoor Chatha",
+	"homepage": "https://github.com/taimoorchatha/pi-extensions/tree/main/packages/context-pulse#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taimoorchatha/pi-extensions.git",
+		"directory": "packages/context-pulse"
+	},
+	"bugs": {
+		"url": "https://github.com/taimoorchatha/pi-extensions/issues"
+	},
+	"pi": {
+		"extensions": ["./src/index.ts"]
+	},
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"peerDependencies": {
+		"@mariozechner/pi-coding-agent": "*",
+		"@mariozechner/pi-tui": "*"
+	}
+}

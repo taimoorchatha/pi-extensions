@@ -1,0 +1,19 @@
+{
+	"name": "@taimoorchatha/pi-extensions",
+	"version": "0.0.0",
+	"description": "Monorepo of pi coding-agent extensions by @taimoorchatha. Individual packages are published from packages/*.",
+	"private": true,
+	"license": "MIT",
+	"author": "Taimoor Chatha",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/taimoorchatha/pi-extensions.git"
+	},
+	"homepage": "https://github.com/taimoorchatha/pi-extensions#readme",
+	"bugs": {
+		"url": "https://github.com/taimoorchatha/pi-extensions/issues"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
